@@ -431,18 +431,18 @@ ul,ol {
   align-items: center;
   justify-content: center;
 }
-.customers-link:hover,
-.customers-link:focus {
-  border: 1px solid var(--primary-button-color);
-  fill:var(--primary-button-color);
-}
 .customers-icons {
   fill: #8e8f99;
 }
-.customers-icons:hover,
-.customers-icons:focus {
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid var(--primary-button-color);
+}
+.customers-link:hover .customers-icons,
+.customers-link:focus .customers-icons {
   fill:var(--primary-button-color);
 }
+
 
 
 /* ----FOOTER---- */
